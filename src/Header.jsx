@@ -2,7 +2,10 @@ function Header(){
     return (
         <header id="home">
             <div className = "divHeader">
-                <h1 className = "headerTitle">My React Website</h1>
+                <div>
+                    <img src="mchqlogo.svg" alt="Logo" className = "headerLogo"></img>
+                    <h1 className = "headerTitle">My React Website</h1>
+                </div>
                 <nav className = "headerNav">
                     <ul>
                         <li><a href="#home">Home</a></li>

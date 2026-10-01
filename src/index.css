@@ -18,6 +18,15 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+.divHeader div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.headerLogo{
+    width: 50px;
+    height: 50px;
+}
 .headerTitle{
     font-size: 20px;
     color: hsl(35, 67%, 43%);
@@ -58,6 +67,8 @@ header nav a:visited{
     max-width: 64rem;
     margin-inline: auto;
     padding-inline: 1rem;
+    display: flex;
+    align-items: center;
     gap: 2rem;
 }
 .aboutme-photo{
