@@ -3,7 +3,7 @@ import Card from "./CardSkill"
 function Skills(){
     return(
         <>
-            <div className="py-12" id="skills">
+            <div className="bg-white py-12 dark:bg-slate-950 dark:text-slate-100" id="skills">
                 <h1 className="mt-0 font-['National_Park',Arial,sans-serif] text-5xl font-bold">Skills</h1>
                 <div className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,14rem),1fr))] auto-rows-fr gap-4 p-[10px] text-center mt-8">
                     <Card classCard ="mx-auto max-w-[200px] mb-[10px]" title="Java" description="I am pretty confident in Java programming as it is my primary language and well thought by our professor on my 2nd year in college. Thanks to him that I am proficient in Java programming as of today." imgURL="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNCOcsHzq6lH24ctD0iut59jy7vczTd3Uemt8Ac87fsDlrCdLQ001t-2k&s=10"/>
