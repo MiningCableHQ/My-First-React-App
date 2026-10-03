@@ -5,9 +5,11 @@ import Footer from './Footer.jsx';
 function App() {
   return(
     <>
-      <Header/>
-      <Main/>
-      <Footer/>
+      <div id="home">
+        <Header/>
+        <Main/>
+        <Footer/>
+      </div>
     </>
   );
 }
