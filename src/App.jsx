@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Header from './Header.jsx';
-import Main from './MainLayout.jsx';
-import Footer from './Footer.jsx';
+import Header from './components/layout/Header.jsx';
+import Main from './components/layout/MainLayout.jsx';
+import Footer from './components/layout/Footer.jsx';
 
 function App() {
   const [isDark, setIsDark] = useState(false);

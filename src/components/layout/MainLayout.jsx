@@ -1,6 +1,6 @@
-import AboutMe from './AboutMe.jsx'
-import Hobbies from './Hobbies.jsx'
-import Skills from './Skills.jsx'
+import AboutMe from '../about/AboutMe.jsx'
+import Hobbies from '../hobbies/Hobbies.jsx'
+import Skills from '../skills/Skills.jsx'
 
 function MainLayout() {
     return(
