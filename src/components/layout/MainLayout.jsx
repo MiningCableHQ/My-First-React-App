@@ -1,6 +1,7 @@
 import AboutMe from '../about/AboutMe.jsx'
 import Hobbies from '../hobbies/Hobbies.jsx'
 import Skills from '../skills/Skills.jsx'
+import Contact from '../contact/Contact.jsx'
 
 function MainLayout() {
     return(
@@ -8,6 +9,7 @@ function MainLayout() {
             <AboutMe/>
             <Hobbies/>
             <Skills/>
+            <Contact/>
         </main>
     );
 }
