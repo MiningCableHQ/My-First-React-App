@@ -1,4 +1,4 @@
-# Website class diagram
+# My-First-React-App Class diagram
 
 ```mermaid
 classDiagram
@@ -92,11 +92,7 @@ classDiagram
     Skills *-- CardSkill : renders multiple
     App --> Header : passes dark-mode state and toggle
 
-    Hobbies ..> Hobby : matching feature data; model not wired in
-    Skills ..> Skill : matching feature data; model not wired in
-    Contact ..> ContactMessage : matching form data; model not wired in
+    Hobbies ..> Hobby : matching feature data, model not wired in
+    Skills ..> Skill : matching feature data, model not wired in
+    Contact ..> ContactMessage : matching form data, model not wired in
 ```
-
-The solid relationships show the current React rendering structure. The dashed
-relationships connect each feature to its corresponding data model; those model
-classes currently exist independently and are not instantiated by the components.
